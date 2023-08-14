@@ -2,10 +2,10 @@ import threading
 from ReaderBOT import ReaderBOT
 
 
-reader1 = ReaderBOT("url1.csv", "data1.csv", 1, 10)
-# reader2 = ReaderBOT("url2.csv", "data2.csv", 11, 20)
-# reader3 = ReaderBOT("url3.csv", "data3.csv", 21, 30)
-# reader4 = ReaderBOT("url4.csv", "data4.csv", 21, 30)
+reader1 = ReaderBOT("url1.csv", "data1.csv", 328, 10001)
+# reader2 = ReaderBOT("url1.csv", "data2.csv", 201, 401)
+# reader3 = ReaderBOT("url1.csv", "data3.csv", 401, 601)
+# reader4 = ReaderBOT("url1.csv", "data4.csv", 601, 801)
 
 
 def run_reader(reader):
